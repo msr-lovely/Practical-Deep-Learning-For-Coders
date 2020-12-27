@@ -15,7 +15,7 @@ https://colab.research.google.com/drive/1yv0wLv6k0uvFhinBFC8DAExuEWpeqWL3?usp=sh
 ## Questionnaire
 1. How is a grayscale image represented on a computer? How about a color image?
 
-0-255, 0 is white 255 is black. For color images, they have 0-255 value for r,g,b channels.
+> 0-255, 0 is white 255 is black. For color images, they have 0-255 value for r,g,b channels.
 
 2. How are the files and folders in the MNIST_SAMPLE dataset structured? Why?
 
