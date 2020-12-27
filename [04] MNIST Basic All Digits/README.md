@@ -20,7 +20,7 @@ https://colab.research.google.com/drive/1yv0wLv6k0uvFhinBFC8DAExuEWpeqWL3?usp=sh
 3. Explain how the "pixel similarity" approach to classifying digits works.
 Finds out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
 4. What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
-```
+```python
 li = [1,2,3,4]
 li = list(filter(lambda x: x%2 == 1, li))
 li = list(map(lambda x: x*2, li))
@@ -86,7 +86,9 @@ def step(params):
 	return preds
 ```
 26. Create a function that, if passed two arguments [1,2,3,4] and 'abcd', returns [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')]. What is special about that output data structure?
-```list(zip([1,2,3,4],['a','b','c','d']))```
+```
+list(zip([1,2,3,4],['a','b','c','d']))
+```
 27. What does view do in PyTorch?
 PyTorch method that changes the shape of a tensor without changing its contents.
 28. What are the "bias" parameters in a neural network? Why do we need them?
