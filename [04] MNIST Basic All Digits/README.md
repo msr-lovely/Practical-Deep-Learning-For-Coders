@@ -14,15 +14,13 @@ https://colab.research.google.com/drive/1yv0wLv6k0uvFhinBFC8DAExuEWpeqWL3?usp=sh
 
 ## Questionnaire
 1. How is a grayscale image represented on a computer? How about a color image?
-
 > 0-255, 0 is white 255 is black. For color images, they have 0-255 value for r,g,b channels.
 
 2. How are the files and folders in the MNIST_SAMPLE dataset structured? Why?
 > `train` and `valid`. Because it's easy to classify and use them this way.
 
 3. Explain how the "pixel similarity" approach to classifying digits works.
-
-Find out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
+> Find out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
 
 4. What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
 ```python
@@ -32,21 +30,18 @@ li = list(map(lambda x: x*2, li))
 ```
 
 5. What is a "rank-3 tensor"?
-
-Tensor with 3 dimensions/axes. Like a list of matrices.
+> Tensor with 3 dimensions/axes. Like a list of matrices.
 
 6. What is the difference between tensor rank and shape? How do you get the rank from the shape?
 
 Tensor shape consists of the length of each dimension. Rank is the total of dimensions/axes, which is the length of shape.
 
 7. What are RMSE and L1 norm?
-
-L1 = Mean Absolute Error
-RMSE = Mean Squared Error
+> L1 = Mean Absolute Error
+> RMSE = Mean Squared Error
 
 8. How can you apply a calculation on thousands of numbers at once, many thousands of times faster than a Python loop?
-
-By using numpy or pytorch functions.
+> By using numpy or pytorch functions.
 
 9. Create a 3×3 tensor or array containing the numbers from 1 to 9. Double it. Select the bottom-right four numbers.
 ```python
@@ -61,56 +56,43 @@ num[1:,1:]
 ```
 
 10. What is broadcasting?
-
-PyTorch's ability to perform mathematic functions on tensors with different ranks.
+> PyTorch's ability to perform mathematic functions on tensors with different ranks.
 
 11. Are metrics generally calculated using the training set, or the validation set? Why?
-
-Validation set, because training set has been used to train the model. We need new, unused data to know the error rate/accuracy.
+> Validation set, because training set has been used to train the model. We need new, unused data to know the error rate/accuracy.
 
 12. What is SGD?
-
-Stochastic Gradient Descent
+> Stochastic Gradient Descent
 
 13. Why does SGD use mini-batches?
-
-Because calculating loss on all training data set is too time consuming, so it's done per batches. A gradient descent step is updated on this batch, instead of on epoch.
+> Because calculating loss on all training data set is too time consuming, so it's done per batches. A gradient descent step is updated on this batch, instead of on epoch.
 
 14. What are the seven steps in SGD for machine learning?
-
-Initialize, Predict, Loss, Gradient, Step (Repeat to Predict), Stop
+> Initialize, Predict, Loss, Gradient, Step (Repeat to Predict after adjusting parameters), Stop
 
 15. How do we initialize the weights in a model?
-
-Random values are fine.
+> Random values are fine.
 
 16. What is "loss"?
-
-Testing the effectiveness of current parameters by calculating the difference between prediction and target. Automated Learning.
+> Testing the effectiveness of current parameters by calculating the difference between prediction and target. Automated Learning.
 
 17. Why can't we always use a high learning rate?
-
-Because if it's too high then the loss might jump around instead of steadily decreasing.
+> Because if it's too high then the loss might jump around instead of steadily decreasing.
 
 18. What is a "gradient"?
-
-Derivative of a slope / loss function.
+> Derivative of a slope / loss function.
 
 19. Do you need to know how to calculate gradients yourself?
-
-No, just use PyTorch API
+> No, just use PyTorch API
 
 20. Why can't we use accuracy as a loss function?
-
-Because accuracy is a true/false and not a function.
+> Because accuracy is a true/false and not a function.
 
 21. Draw the sigmoid function. What is special about its shape?
-
-It only has value of 0-1
+> It only has value of 0-1
 
 22. What is the difference between a loss function and a metric?
-
-Loss function is used to recalculate the parameters of activation function (learning process), metric is used to evaluate the whole algorithm.
+> Loss function is used to recalculate the parameters of activation function (learning process), metric is used to evaluate the whole algorithm.
 
 23. What is the function to calculate new weights using a learning rate?
 ```python
@@ -118,8 +100,7 @@ w -= gradient(w) * lr
 ```
 
 24. What does the DataLoader class do?
-
-Load all the data, apply transforms or augmentations, split training and validation sets, etc. Prepare the data.
+> Load all the data, apply transforms or augmentations, split training and validation sets, etc. Prepare the data.
 
 25. Write pseudocode showing the basic steps taken in each epoch for SGD.
 ```python
@@ -138,28 +119,22 @@ list(zip([1,2,3,4],['a','b','c','d']))
 ```
 
 27. What does view do in PyTorch?
-
-PyTorch method that changes the shape of a tensor without changing its contents.
+> PyTorch method that changes the shape of a tensor without changing its contents.
 
 28. What are the "bias" parameters in a neural network? Why do we need them?
-
-It's a function to create a line: `f(x): xw + b`
+> It's a function to create a line: `f(x): xw + b`
 
 29. What does the @ operator do in Python?
-
-Matrix multiplication.
+> Matrix multiplication.
 
 30. What does the backward method do?
-
-Calculate a function parameter's gradient.
+> Calculate a function parameter's gradient.
 
 31. Why do we have to zero the gradients?
-
-Because loss.backward() adds to the current gradient value.
+> Because loss.backward() adds to the current gradient value.
 
 32. What information do we have to pass to Learner?
-
-Dataset, Deep Learning Architecture, metrics (if any)
+> Dataset, Deep Learning Architecture, metrics (if any)
 
 33. Show Python or pseudocode for the basic steps of a training loop.
 ```python
@@ -177,13 +152,10 @@ def train_epoch(model,lr,params):
 ```
 
 35. What is an "activation function"?
-
-Function to create prediction.
+> Function to create prediction.
 
 36. What's the difference between F.relu and nn.ReLU?
-
-nn.ReLU is a module, F.relu is a function.
+> nn.ReLU is a module, F.relu is a function.
 
 37. The universal approximation theorem shows that any function can be approximated as closely as needed using just one nonlinearity. So why do we normally use more?
-
-It's more complex
+> It's more complex
