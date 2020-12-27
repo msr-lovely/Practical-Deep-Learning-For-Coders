@@ -23,7 +23,7 @@ https://colab.research.google.com/drive/1yv0wLv6k0uvFhinBFC8DAExuEWpeqWL3?usp=sh
 
 3. Explain how the "pixel similarity" approach to classifying digits works.
 
-Finds out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
+Find out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
 
 4. What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
 ```python
@@ -38,7 +38,7 @@ Tensor with 3 dimensions/axes. Like a list of matrices.
 
 6. What is the difference between tensor rank and shape? How do you get the rank from the shape?
 
-Tensor shape consist the length of each dimension. Rank is the total of dimensions/axes, which is the length of shape.
+Tensor shape consists of the length of each dimension. Rank is the total of dimensions/axes, which is the length of shape.
 
 7. What are RMSE and L1 norm?
 
