@@ -1,11 +1,11 @@
 # [04] MNIST Basic
 
-## Disclaimer
 The objective of this learner is to use deep learning to recognize handwritten digits with an error rate below 1%. 
 
+## Disclaimer
 Basic tutorial on how to recognize number 3 and 7 is on [Ch04. MNIST Basic](https://colab.research.google.com/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb)
 
-Github assets by Melisa Surja
+Github by Melisa Surja.
 
 ## Source code
 My Jupyter Notebook file can be viewed here:
