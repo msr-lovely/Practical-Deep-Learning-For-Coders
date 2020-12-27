@@ -20,9 +20,11 @@ https://colab.research.google.com/drive/1yv0wLv6k0uvFhinBFC8DAExuEWpeqWL3?usp=sh
 3. Explain how the "pixel similarity" approach to classifying digits works.
 Finds out the ideal image from all the images in same category. For example, stack all '3' images together and use mean() to find the average value for each pixel.
 4. What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
-```li = [1,2,3,4]
+```
+li = [1,2,3,4]
 li = list(filter(lambda x: x%2 == 1, li))
-li = list(map(lambda x: x*2, li))```
+li = list(map(lambda x: x*2, li))
+```
 5. What is a "rank-3 tensor"?
 Tensor with 3 dimensions/axes. Like a list of matrices.
 6. What is the difference between tensor rank and shape? How do you get the rank from the shape?
@@ -33,14 +35,16 @@ RMSE = Mean Squared Error
 8. How can you apply a calculation on thousands of numbers at once, many thousands of times faster than a Python loop?
 By using numpy or pytorch functions.
 9. Create a 3×3 tensor or array containing the numbers from 1 to 9. Double it. Select the bottom-right four numbers.
-```num = tensor(
+```
+num = tensor(
 [
 	[1,2,3],
 	[4,5,6],
 	[7,8,9]
 ])
 num *= 2
-num[1:,1:]```
+num[1:,1:]
+```
 10. What is broadcasting?
 PyTorch's ability to perform mathematic functions on tensors with different ranks.
 11. Are metrics generally calculated using the training set, or the validation set? Why?
