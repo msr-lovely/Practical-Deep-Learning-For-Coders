@@ -157,4 +157,4 @@ def train_epoch(model,lr,params):
 > nn.ReLU is a module, F.relu is a function.
 
 37. The universal approximation theorem shows that any function can be approximated as closely as needed using just one nonlinearity. So why do we normally use more?
-> It's more complex
+> It's more complex, you can use more weights/parameters. Deep learning can train the weights multiple times in 1 epoch. It trains more accurate model with less epochs.
