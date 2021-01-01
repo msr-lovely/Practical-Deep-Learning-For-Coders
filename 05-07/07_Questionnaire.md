@@ -1,6 +1,10 @@
-# Questionnaire
+# 7. Training a State-of-the-Art Model 
+
+## Questionnaire
 
 1. What is the difference between ImageNet and Imagenette? When is it better to experiment on one versus the other?
+> Imagenette is a smaller set of images from ImageNet. It is created for average people without an access to high-end hardware to prototype on. Imagenette was selected by 10 classes from the full ImageNet that looked very different from one another.
+
 2. What is normalization?
 3. Why didn't we have to care about normalization when using a pretrained model?
 4. What is progressive resizing?

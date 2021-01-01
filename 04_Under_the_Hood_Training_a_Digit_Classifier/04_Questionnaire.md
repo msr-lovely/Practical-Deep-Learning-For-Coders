@@ -1,4 +1,7 @@
-# Questionnaire
+# 4. Under the Hood: Training a Digit Classifier
+
+## Questionnaire
+
 1. How is a grayscale image represented on a computer? How about a color image?
 > 0-255, 0 is white 255 is black. For color images, they have 0-255 value for r,g,b channels.
 

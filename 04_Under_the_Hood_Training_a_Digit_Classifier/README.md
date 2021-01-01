@@ -1,4 +1,4 @@
-# 4. MNIST Basic
+# 4. Under the Hood: Training a Digit Classifier
 
 The objective of this learner is to use deep learning to recognize handwritten digits with an error rate below 1%. 
 
