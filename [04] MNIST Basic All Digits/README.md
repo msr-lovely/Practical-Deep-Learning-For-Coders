@@ -1,4 +1,4 @@
-# [04] MNIST Basic
+# 4. MNIST Basic
 
 The objective of this learner is to use deep learning to recognize handwritten digits with an error rate below 1%. 
 
