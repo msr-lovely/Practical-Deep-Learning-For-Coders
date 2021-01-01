@@ -7,11 +7,9 @@ This is where I keep all my codes. Read the readme file to get links to my jupyt
 I'm going to use a library called FastAI.
 
 ## Questionnaire Answers
-[4. MNIST Basic](%5B04%5D%20MNIST%20Basic%20All%20Digits)
+[4. MNIST Basic](04_MNIST_Basic_All_Digits/README.md)
 
-[4. MNIST Basic](\[04\] MNIST Basic All Digits/README.md)
-
-[asdfd]([05-07]/[07] Questionnaire.md)
+[asdfd](05-07/07_Questionnaire.md)
 
 [asdfd](\[05-07\]/\[07\] Questionnaire.md)
 
