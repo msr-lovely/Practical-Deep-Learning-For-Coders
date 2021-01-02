@@ -3,19 +3,23 @@
 ## Questionnaire Answers
 
 1. Why do we first resize to a large size on the CPU, and then to a smaller size on the GPU?
-> 
+> Because if we perform the augmented transformation on reduced size, then the images would have empty spaces when they're rotated/warped.
 
 2. If you are not familiar with regular expressions, find a regular expression tutorial, and some problem sets, and complete them. Have a look on the book's website for suggestions.
 > I have used REGex extensively in the past :3
 
 3. What are the two ways in which data is most commonly provided, for most deep learning datasets?
-> 1. Individual files
+> 1. Individual files organized into folders. The folder's name is the category/label.
+> 1. A table of data that provides connection between data.
 
 4. Look up the documentation for L and try using a few of the new methods that it adds.
->
+```
+p.filter(ge(15))
+```
+> Enables functional methods to filter the list.
 
 5. Look up the documentation for the Python pathlib module and try using a few methods of the Path class.
->
+> 
 
 6. Give two examples of ways that image transformations can degrade the quality of the data.
 >
@@ -78,5 +82,6 @@ db.summary(path)
 > Resnet 101 has more layers and therefore more parameters.
 
 23. What does to_fp16 do?
+> Uses tensor cores that can speed up neural network training. Almost all NVIDIA GPUs support it. My speed didn't increase though...
 
 
