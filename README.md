@@ -11,8 +11,8 @@ I'm going to use a library called FastAI.
 2. From Model to Production
 3. Data Ethics
 4. [Under the Hood: Training a Digit Classifier](04_Under_the_Hood_Training_a_Digit_Classifier/04_Questionnaire.md)
-5. Image Classification
-6. Other Computer Vision Problems
+5. [Image Classification](05-07/05_Questionnaire.md)
+6. [Other Computer Vision Problems](05-07/06_Questionnaire.md)
 7. [Training a State-of-the-Art Model](05-07/07_Questionnaire.md)
 
 
