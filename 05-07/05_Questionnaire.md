@@ -13,13 +13,13 @@
 > 1. A table of data that provides connection between data.
 
 4. Look up the documentation for L and try using a few of the new methods that it adds.
-```
+```python
 p.filter(ge(15))
 ```
 > Enables functional methods to filter the list.
 
 5. Look up the documentation for the Python pathlib module and try using a few methods of the Path class.
-```
+```python
 Path().ls() 
 Path().exists()
 ```
@@ -29,12 +29,12 @@ Path().exists()
 > - Cropping the image in multi-label classifications can crop out some objects that are located near the corners.
 
 7. What method does fastai provide to view the data in a DataLoaders?
-```
+```python
 dls.show_batch()
 ```
 
 8. What method does fastai provide to help you debug a DataBlock?
-```
+```python
 db.summary(path)
 ```
 
@@ -68,7 +68,7 @@ db.summary(path)
 
 18. In Jupyter Notebook, how do you get the source code for a method or function?
 > By using `??` before the method/function, for example:
-```
+```python
 ??show_image
 ```
 
