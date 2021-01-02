@@ -9,7 +9,7 @@
 > I have used REGex extensively in the past :3
 
 3. What are the two ways in which data is most commonly provided, for most deep learning datasets?
-> 
+> 1. Individual files
 
 4. Look up the documentation for L and try using a few of the new methods that it adds.
 >
@@ -42,17 +42,23 @@ db.summary(path)
 12. When might you want your activations to not have these two properties?
 >
 
-13. Calculate the exp and softmax columns of <> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
+13. Calculate the exp and softmax columns of <bear_softmax> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
+<img src='https://raw.githubusercontent.com/fastai/fastbook/3916b71bdf2f9e587ac82f3c2ef4aabd05b8f51c/images/att_00062.png' />
 > 
 
 14. Why can't we use torch.where to create a loss function for datasets where our label can have more than two categories?
 > Because torch.where can only map between two values, so it only works on two categories.
 
 15. What is the value of log(-2)? Why?
-> np.log(-2) returns an error... (invalid value) because logarithm can't produce a negative value. For example, np.log(100) is 2, because 10**2 is 100.
+> np.log(-2) returns an error (invalid value) because logarithm can't produce a negative value. For example, np.log(100) is 2, because 10**2 is 100.
 
 16. What are two good rules of thumb for picking a learning rate from the learning rate finder?
+>
+
 17. What two steps does the fine_tune method do?
+> 1. Train the new random layer for one epoch
+> 1. Train the model (all layers) for all the epoch
+
 18. In Jupyter Notebook, how do you get the source code for a method or function?
 > By using `??` before the method/function, for example:
 ```
@@ -60,7 +66,7 @@ db.summary(path)
 ```
 
 19. What are discriminative learning rates?
-> 
+> Learning rates start off high in the beginning and becomes lower at the end.
 
 20. How is a Python slice object interpreted when passed as a learning rate to fastai?
 >
