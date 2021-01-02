@@ -1,6 +1,6 @@
 # 7. Training a State-of-the-Art Model 
 
-## Questionnaire
+## Questionnaire Answers
 
 1. What is the difference between ImageNet and Imagenette? When is it better to experiment on one versus the other?
 > Imagenette contains 10 classes from the full ImageNet that looked very different from one another. It is created for average people without an access to high-end hardware to prototype on.
